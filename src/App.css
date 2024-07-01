@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.events, .pet, .menu {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.pet-div {
+  text-align: center;
+}
+
+.pet {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.food-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.food-container button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-container {
+  margin-top: 20px;
+}
+
+.menu-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: none;
+}
+
+.menu-list.show {
+  display: block;
+}
+
+.menu-list li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.menu-list li:hover {
+  background-color: #f0f0f0;
+}
